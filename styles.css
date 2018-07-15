@@ -1,0 +1,72 @@
+/* add your CSS here*/
+
+.name {
+    margin: 10px 0px;
+    text-align: left;
+    
+}
+
+.image {
+    width: 300px;
+    box-sizing: border-box;   /* fix the width */
+    border-radius: 6px;
+    cursor: pointer;          /* pointer on image */
+    box-shadow: 5px 2px 4px darkgrey;
+    margin-bottom: 10px;
+    opacity: 0.90;
+    
+}
+
+.fact {
+    font-style: italic;
+    margin: auto;
+}
+
+.ListItems {
+    font-weight: bold;
+}
+
+.description {
+    width: 300px;
+    box-sizing: border-box;   /* fix width */
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 6px;       /* smooth edges */
+    
+    
+}
+
+div {
+    width: 300px;
+    border: 1px solid grey;
+    padding: 10px 10px;
+    box-shadow: 5px 2px 15px grey;
+}
+
+ul {
+    list-style-type: none;   /* dots removed */
+    padding-left: 0;         /* left alighned */
+}
+
+li {
+    opacity: 0.75;           /* Opacity before hover */
+}                            /* Value for animation */
+
+.Image:hover {               /* Reduce Value on Hover */
+    opacity: 1;
+   box-shadow: 7px 5px 5px darkgrey; /* enhance zoom effect*/
+   transition: 0.2s;
+    margin-top:-1px;    /* creates a zoom like effect*/
+}
+
+li:hover {    
+    padding-left: 5px;        /* Increase in padding gives*/
+    transition: 0.3s;         /* animation on hover */
+    cursor: pointer;
+    opacity: 1;               /* text is fully visible */
+    
+}
+
+.summary {
+    text-align: justify;
+}
